@@ -1,0 +1,8 @@
+# large GROMACS output files - not tracked
+*.xtc
+*.trr
+*.edr
+*.cpt
+*.tpr
+*.log
+\#*\#
