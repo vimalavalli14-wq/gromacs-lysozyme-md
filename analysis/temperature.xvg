@@ -1,0 +1,45 @@
+# This file was created Thu Nov 26 11:36:19 2026
+# Created by:
+#              :-) GROMACS - gmx energy, 2025.4-Ubuntu_2025.4_1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/valli/gromacs-lysozyme-md/sim
+# Command line:
+#   gmx energy -f nvt.edr -o ../analysis/temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  298.788391
+    5.000000  284.553192
+   10.000000  295.875214
+   15.000000  298.012360
+   20.000000  295.804443
+   25.000000  298.024994
+   30.000000  297.495667
+   35.000000  299.598450
+   40.000000  301.335205
+   45.000000  296.559235
+   50.000000  297.903381
+   55.000000  295.321411
+   60.000000  297.232330
+   65.000000  299.370789
+   70.000000  296.762115
+   75.000000  299.689514
+   80.000000  298.635529
+   85.000000  297.702423
+   90.000000  297.657715
+   95.000000  298.397247
+  100.000000  296.893829
