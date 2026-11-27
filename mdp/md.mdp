@@ -1,7 +1,7 @@
 title                   = OPLS Lysozyme MD run 
 ; Run parameters
 integrator              = md        ; leap-frog integrator
-nsteps                  = 5000000   ; 2 * 2500000 = 10000 ps (10 ns)
+nsteps                  = 250000    ; 2 * 250000 = 500 ps
 dt                      = 0.002     ; 2 fs
 ; Output control
 nstxout                 = 0         ; suppress bulky .trr file by specifying 
